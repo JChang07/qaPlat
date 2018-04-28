@@ -1,12 +1,17 @@
 <template>
   <div id="app">
+    <Button type="primary">
+      hshshs
+    </Button>
     <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
 
 <script>
+import Button from '../node_modules/iview/src/components/button/button'
 export default {
+  components: {Button},
   name: 'App'
 }
 </script>
