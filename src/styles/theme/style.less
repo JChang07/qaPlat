@@ -1,0 +1,26 @@
+@import "themeConf";
+*{
+  margin: 0;
+}
+.mainArea (@width: 1000px, @padding: 16px, @marin: auto){
+  width: @width;
+  padding: 0 @padding;
+  margin: 0 @marin;
+}
+body {
+  background-color: #f6f6f6;
+}
+.jc-color-secondary {
+  color: @secondary-color;
+}
+.ivu-menu-light {
+  .ivu-menu-item{
+    font-size: 17px;
+  }
+  .ivu-menu-item.ivu-menu-item-active,
+  .ivu-menu-item:hover
+  {
+    color: lighten(@primary-color, 10%);
+    border-bottom-color: lighten(@primary-color, 10%);
+  }
+}

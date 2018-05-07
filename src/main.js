@@ -3,7 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import iView from 'iview'
+import './styles/theme/themeConf.less'
 import 'iview/dist/styles/iview.css'
+import './styles/theme/style.less'
 import router from './router'
 
 Vue.use(iView)
