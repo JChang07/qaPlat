@@ -7,7 +7,9 @@ import './styles/theme/themeConf.less'
 import 'iview/dist/styles/iview.css'
 import './styles/theme/style.less'
 import router from './router'
+import api from './api/index'
 
+Vue.prototype.$api = api
 Vue.use(iView)
 Vue.config.productionTip = false
 
