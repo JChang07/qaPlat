@@ -5,17 +5,17 @@
           <div class="layout-menu">
             <div class="layout-logo">
             </div>
-            <div class="layout-nav">
-              <Menu-item name="1">
-                首页
-              </Menu-item>
-              <Menu-item name="2">
-                圈子
-              </Menu-item>
-              <Menu-item name="3">
-                我的
-              </Menu-item>
-            </div>
+            <!--<div class="layout-nav">-->
+              <!--<Menu-item name="1">-->
+                <!--首页-->
+              <!--</Menu-item>-->
+              <!--<Menu-item name="2">-->
+                <!--圈子-->
+              <!--</Menu-item>-->
+              <!--<Menu-item name="3">-->
+                <!--我的-->
+              <!--</Menu-item>-->
+            <!--</div>-->
             <div class="layout-nav-right">
               <Auto-complete
                 v-model="searchKeyword"
@@ -24,6 +24,8 @@
                 placeholder="搜索你感兴趣的内容~"
                 icon="ios-search"
                 style="width: 200px"/>
+              <Button type="primary">搜索</Button>
+              <Button type="warning">提问</Button>
               <div class="layout-avatar">
                 <Dropdown  placement="bottom-start">
                   <Avatar icon="person" size="large" style="border: 2px solid #fff;box-shadow: 0 0 3px 1.5px rgba(26,26,26,.1)"></Avatar>
